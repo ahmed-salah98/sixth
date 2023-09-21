@@ -1,0 +1,289 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav img {
+    width: 3%;
+}
+
+.nav h1,
+img {
+    float: left;
+    padding: 10px;
+}
+
+.nav p {
+    float: right;
+    padding: 10px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.nav {
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.first img {
+    width: 5%;
+    margin-top: 10%;
+
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second p {
+    padding: 20px;
+    font-size: larger;
+}
+
+.first h3 {
+    font-size: 40px;
+    color: aquamarine;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.three div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    align-items: flex-start;
+    height: 400px;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.three .patients {
+    background-color: aqua;
+}
+
+.three .patients select {
+    background-color: aqua;
+}
+
+.three .doctors {
+    background-color: darkcyan;
+}
+
+.three .doctors select {
+    background-color: darkcyan;
+}
+
+.three .clinics {
+    background-color: orangered;
+}
+
+.three .clinics select {
+    background-color: orangered;
+
+}
+
+.three img {
+    width: 10%;
+}
+
+.three select {
+    width: 60%;
+    margin-top: 80px;
+    padding: 10px;
+    text-transform: none;
+    border-radius: 8%;
+    border: none;
+
+
+}
+
+.three select option {
+    font-size: 20px;
+
+}
+
+p {
+    padding: 5px;
+}
+
+.four img {
+    width: 500px;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.four p {
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    height: 100vh;
+    font-size: 20px;
+    border-radius: 5%;
+
+}
+
+.five p {
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+.five #i {
+    width: 30vw;
+}
+
+.five .l {
+    width: 200%;
+}
+
+.six {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.six img {
+    width: 10%;
+}
+
+.six .before {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.six .after {
+    display: flex;
+    flex-direction: row;
+}
+
+.before div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    color: aquamarine;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+
+}
+
+.after div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    color: aquamarine;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.seven {
+    text-align: center;
+    height: 40vh;
+    padding: 50px;
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: dimgray;
+}
+
+.seven h4 {
+    padding: 30px;
+    color: aqua;
+    font-size: 30px;
+}
+
+.eight {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+.eight div {
+    display: flex;
+    flex-direction: column;
+}
+
+.eight section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.eight {
+    color: dimgray;
+}
+
+.eight button {
+    background-color: rgb(16, 62, 161);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.nine{
+    height: 40vh;
+    text-align: center;
+    padding-top: 150px;
+    color: dimgray;
+}
+.nine button{
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(16, 62, 161);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.ten{
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+}
